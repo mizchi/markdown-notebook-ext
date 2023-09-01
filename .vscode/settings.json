@@ -2,13 +2,19 @@
   "editor.formatOnSave": true,
   "mdx.experimentalLanguageServer": true,
   "[typescript]": {
-      "editor.formatOnSave": true,
-      "editor.defaultFormatter": "rome.rome"
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "biomejs.biome"
   },
   "[typescriptreact]": {
-      "editor.formatOnSave": true,
-      "editor.defaultFormatter": "rome.rome"
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "biomejs.biome"
   },
-
+  "[json]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "editor.codeActionsOnSave": {
+    "quickfix.biome": true,
+    "source.organizeImports.biome": true
+  },
   "eslint.validate": ["typescript", "json", "jsonc", "markdown"]
 }

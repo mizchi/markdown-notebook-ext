@@ -29,3 +29,5 @@ meta.json
 stats.html
 extensions
 .vsix
+ext
+regex-notebook

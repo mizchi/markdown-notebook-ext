@@ -132,3 +132,7 @@ dist
 .yarn/install-state.gz
 .pnp.*
 .env
+ext
+regex-notebook
+*.vsix
+.DS_Store

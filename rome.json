@@ -3,6 +3,6 @@
     "enabled": true
   },
   "linter": {
-    "enabled": true
+    "enabled": false
   }
 }

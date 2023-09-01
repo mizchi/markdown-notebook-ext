@@ -1,4 +1,14 @@
 {
+  "ts-node": {
+    "compilerOptions": {
+      "module": "Node16",
+      "moduleResolution": "node16",
+      "allowImportingTsExtensions": false,
+      "resolveJsonModule": true,
+      "allowJs": true,
+      "noEmit": true
+    }
+  },
   "compilerOptions": {
     "target": "ES2021",
     "useDefineForClassFields": true,
